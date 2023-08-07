@@ -1,3 +1,7 @@
+.scroll{
+	overflow: hidden;
+	white-space: nowrap;
+}
 .scroll p{
 	display: inline-block;
 	animation: marquee 7s linear infinite;
