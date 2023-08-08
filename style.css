@@ -1,8 +1,25 @@
-.scroll{
-	overflow: hidden;
-	white-space: nowrap;
+.#features{
+	padding: 50px 0;
 }
-.scroll p{
-	display: inline-block;
-	animation: marquee 7s linear infinite;
+
+.feature-row{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.feature-col{
+	flex-basis: 25%;
+	text-align: center;
+	border: 2px #f67c92 solid;
+	padding: 20px;
+	border-radius: 25px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.feature-col:hover{
+	background-image: linear-gradient(to right, blueviolet, purple);
 }
